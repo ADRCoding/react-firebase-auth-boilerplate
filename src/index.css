@@ -1,3 +1,129 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #E0BABB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 50%;
+  height: 60vh;
+  background-color: #F5DEDF;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.loginTxt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #510104;
+  margin-bottom: 1.5rem;
+}
+
+.inputField {
+  width: 80%;
+  height: 6vh;
+  margin-top: 2vh;
+  margin-left: 10%;
+  padding-left: 10px;
+  background-color: #F5DEDF;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+
+.inputField::placeholder {
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.password {
+  width: 100%;
+  margin-top: 3vh;
+
+}
+
+.forgotPw {
+  text-align: right;
+  color: rgba(81, 1, 4, 0.63);
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1vh;
+  width: 100%;
+}
+
+.loginBtn {
+  width: 100%;
+  background-color: #510104;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  padding: 12px 20px;
+  border: none;
+  margin-top: 2vh;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginBtn:hover {
+  background-color: #6d0204;
+}
+
+.signup {
+  color: rgba(81, 1, 4, 0.63);
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 2vh;
+}
+
+.connectTxt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.txt {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #510104;
+}
+
+.borderLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.borderLine div {
+  flex-grow: 1;
+  border-top: 2px solid #510104;
+}
+
+.borderLine span {
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: #510104;
+  font-family: 'Poppins', sans-serif;
+}

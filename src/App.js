@@ -1,5 +1,5 @@
 import Login from "./components/auth/login";
-import Register from "./components/auth/register";
+import Register from "./components/auth/register/";
 
 import Header from "./components/header";
 import Home from "./components/home";
