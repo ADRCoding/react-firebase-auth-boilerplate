@@ -35,10 +35,9 @@
 }
 
 .inputField {
-  width: 80%;
+  width: 100%;
   height: 6vh;
   margin-top: 2vh;
-  margin-left: 10%;
   padding-left: 10px;
   background-color: #F5DEDF;
   border: 1.5px solid black;
@@ -71,7 +70,7 @@
 }
 
 .loginBtn {
-  width: 80%;
+  width: 100%;
   background-color: #510104;
   border-radius: 20px;
   color: white;
